@@ -11,13 +11,17 @@ def main():
     filterExpr = args.where
     aggregateExpr = args.aggregate
 
-    data = read_csv(filePath)
+    try:
+        data = read_csv(filePath)
+    except Exception as e:
+        print(f"Can't open file ({filePath}) : {e}")
+
     dataRes = []
     if filterExpr:
         try:
             filter = parse_filter_expression(filterExpr)
-        except Exception:
-            print(f"Invalid filter format: {filterExpr}")
+        except Exception as e:
+            print(f"Invalid filter format ({filterExpr}) : {e}")
             return
         for line in data:
             if filter.apply(line):
@@ -28,8 +32,8 @@ def main():
     if aggregateExpr:
         try:
             aggregator = parse_aggregator_expression(aggregateExpr)
-        except Exception:
-            print(f"Invalid aggregate format: {aggregateExpr}")
+        except Exception as e:
+            print(f"Invalid aggregate format ({aggregateExpr}) : {e}")
             return
         for line in dataRes:
             aggregator.add(line)

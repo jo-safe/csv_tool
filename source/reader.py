@@ -1,20 +1,13 @@
 import csv
 from typing import Any
 
+from utils import try_cast
+
 def read_csv(filepath: str) -> list[dict[str, Any]]:
     with open(filepath, 'r') as f:
         reader = csv.DictReader(f)
         rows = []
         for row in reader:
-            typed_row = {k: infer_type(v) for k, v in row.items()}
+            typed_row = {k: try_cast(v) for k, v in row.items()}
             rows.append(typed_row)
         return rows
-
-def infer_type(value: str):
-    try:
-        if '.' in value:
-            return float(value)
-        else:
-            return int(value)
-    except ValueError:
-        return value
