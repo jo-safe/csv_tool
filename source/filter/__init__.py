@@ -1,13 +1,13 @@
 from .operators import FILTERS
 
 def parse_filter_expression(expr: str):
-    for symbol, filterType in FILTERS.items():
-        if symbol in expr:
-            column, raw_value = expr.split(symbol, 1)
+    for operator, filterClass in FILTERS.items():
+        if operator in expr:
+            column, raw_value = expr.split(operator, 1)
             value = try_cast(raw_value)
-            return filterType(column, value)
+            return filterClass(column, value)
 
-    raise ValueError(f"Неизвестный оператор в выражении: {expr}")
+    raise ValueError(f"Undefenited operator type: {expr}")
 
 
 def try_cast(value: str):
