@@ -1,0 +1,101 @@
+id,name,city,product,quantity,price,rating
+1,Frank,London,Phone,3,895.65,3.2
+2,Frank,Berlin,Laptop,12,672.72,3.1
+3,Bob,Paris,Phone,8,364.16,1.4
+4,Frank,Berlin,Keyboard,6,562.79,1.9
+5,Eve,London,Keyboard,16,598.53,2.0
+6,Eve,London,Phone,11,557.02,4.8
+7,Bob,London,Keyboard,5,815.76,3.8
+8,Alice,New York,Laptop,3,461.8,2.7
+9,Alice,New York,Monitor,2,177.1,2.0
+10,Eve,London,Tablet,5,702.9,3.7
+11,Frank,Moscow,Monitor,5,711.21,3.5
+12,Charlie,Berlin,Phone,10,954.11,3.0
+13,Diana,Moscow,Monitor,2,75.68,1.3
+14,Eve,Paris,Laptop,4,706.12,3.9
+15,Charlie,New York,Monitor,17,457.09,3.3
+16,Bob,New York,Tablet,2,236.42,2.9
+17,Alice,Paris,Mouse,13,259.33,2.0
+18,Eve,Tokyo,Mouse,19,830.1,2.3
+19,Diana,Moscow,Monitor,19,702.66,4.9
+20,Bob,New York,Monitor,1,504.09,1.4
+21,Alice,New York,Mouse,8,744.08,4.0
+22,Bob,New York,Laptop,14,343.07,3.9
+23,Bob,Paris,Mouse,6,492.1,3.2
+24,Charlie,Moscow,Tablet,5,440.52,3.1
+25,Charlie,Tokyo,Laptop,16,78.66,2.8
+26,Bob,Tokyo,Keyboard,20,475.83,3.8
+27,Eve,New York,Mouse,18,327.35,4.4
+28,Charlie,Berlin,Laptop,18,457.85,2.6
+29,Frank,Paris,Laptop,2,177.53,1.8
+30,Diana,Paris,Phone,8,924.39,4.1
+31,Frank,Paris,Tablet,16,184.38,1.0
+32,Alice,London,Laptop,5,78.79,1.3
+33,Bob,Tokyo,Tablet,15,108.08,1.0
+34,Alice,Moscow,Monitor,7,664.91,2.3
+35,Charlie,Tokyo,Mouse,9,750.81,2.4
+36,Bob,Tokyo,Phone,14,697.27,3.3
+37,Charlie,Berlin,Laptop,4,828.28,1.6
+38,Frank,Paris,Phone,19,62.97,2.7
+39,Eve,Paris,Laptop,2,736.37,4.7
+40,Diana,Moscow,Monitor,9,498.25,4.8
+41,Diana,Paris,Tablet,17,383.43,2.7
+42,Charlie,Berlin,Mouse,5,801.08,4.1
+43,Diana,New York,Phone,15,560.66,3.7
+44,Alice,London,Phone,9,88.84,4.8
+45,Diana,Moscow,Keyboard,3,545.87,1.9
+46,Frank,Tokyo,Tablet,13,898.26,1.5
+47,Frank,Paris,Laptop,13,242.04,1.1
+48,Charlie,Paris,Phone,9,254.88,1.4
+49,Eve,London,Mouse,5,87.86,4.5
+50,Eve,London,Keyboard,15,436.01,3.9
+51,Diana,Paris,Mouse,11,288.65,3.5
+52,Charlie,Paris,Monitor,17,731.12,1.1
+53,Charlie,Berlin,Tablet,4,879.67,3.3
+54,Bob,New York,Monitor,17,249.88,3.5
+55,Alice,London,Laptop,13,264.68,3.8
+56,Diana,New York,Tablet,20,114.89,2.9
+57,Frank,Paris,Phone,17,452.87,1.9
+58,Alice,London,Laptop,4,697.4,3.3
+59,Diana,London,Keyboard,6,825.31,1.7
+60,Diana,Paris,Monitor,4,997.81,1.4
+61,Diana,London,Tablet,10,97.18,4.0
+62,Diana,Paris,Tablet,17,172.64,1.7
+63,Eve,London,Monitor,9,682.48,1.5
+64,Alice,Berlin,Mouse,18,353.01,4.6
+65,Bob,Berlin,Laptop,11,957.91,1.6
+66,Alice,New York,Keyboard,9,472.87,4.3
+67,Bob,Paris,Tablet,1,50.86,3.4
+68,Diana,Tokyo,Monitor,11,411.29,3.1
+69,Alice,Moscow,Tablet,16,64.18,1.5
+70,Bob,Moscow,Phone,19,154.74,1.1
+71,Frank,Paris,Mouse,3,513.51,2.0
+72,Frank,London,Mouse,1,367.46,4.2
+73,Frank,Moscow,Keyboard,6,625.18,4.6
+74,Alice,Moscow,Keyboard,15,60.35,1.6
+75,Alice,Paris,Monitor,13,636.92,2.4
+76,Diana,Paris,Laptop,15,391.11,2.4
+77,Charlie,London,Laptop,3,519.68,1.9
+78,Charlie,New York,Phone,15,60.14,3.3
+79,Eve,Tokyo,Tablet,11,705.15,4.4
+80,Charlie,London,Laptop,16,258.32,2.0
+81,Charlie,Moscow,Laptop,4,481.2,4.8
+82,Charlie,London,Phone,2,743.94,2.3
+83,Eve,Tokyo,Phone,7,225.85,1.2
+84,Eve,Berlin,Monitor,4,102.7,4.2
+85,Diana,London,Phone,17,427.59,4.3
+86,Charlie,Berlin,Tablet,6,917.08,3.1
+87,Charlie,Paris,Keyboard,15,189.38,2.7
+88,Bob,Berlin,Monitor,8,761.41,4.1
+89,Frank,New York,Monitor,5,230.98,1.5
+90,Diana,Paris,Mouse,11,560.6,2.9
+91,Diana,Paris,Monitor,17,972.94,2.9
+92,Bob,Berlin,Laptop,20,273.0,2.7
+93,Charlie,Moscow,Phone,18,335.82,3.9
+94,Alice,Tokyo,Phone,7,702.15,1.8
+95,Alice,London,Tablet,12,411.45,3.0
+96,Alice,New York,Keyboard,17,994.59,2.7
+97,Frank,London,Phone,3,221.62,1.0
+98,Eve,Paris,Phone,7,907.34,3.5
+99,Charlie,New York,Mouse,6,271.59,2.6
+100,Charlie,New York,Keyboard,5,344.0,4.7

@@ -1,6 +1,7 @@
 from .operators import FILTERS
+from .base import BaseFilter
 
-def parse_filter_expression(expr: str):
+def parse_filter_expression(expr: str) -> BaseFilter:
     for operator, filterClass in FILTERS.items():
         if operator in expr:
             column, raw_value = expr.split(operator, 1)

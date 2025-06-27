@@ -1,21 +1,12 @@
 from abc import ABC, abstractmethod
 from typing import Any
-from enum import Enum
-
-class AggregatorType(Enum):
-    AVG = 0
-    MAX = 1
-    MIN = 2
 
 class BaseAggregator(ABC):
-    def __init__(self, column: str, aggrType: AggregatorType):
+    def __init__(self, column: str):
         self.column = column
-        self.valueType = None
-        self.aggrType = aggrType
         self.values = []
 
-    def setValueType(self, valueType: type):
-        self.valueType = valueType
+        self.valueType = None
 
     def clear(self):
         self.values = []
