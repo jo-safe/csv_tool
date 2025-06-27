@@ -1,6 +1,7 @@
 import csv
+from typing import Any
 
-def read_csv(filepath: str):
+def read_csv(filepath: str) -> dict[str, Any]:
     with open(filepath, 'r') as f:
         reader = csv.DictReader(f)
         rows = []
