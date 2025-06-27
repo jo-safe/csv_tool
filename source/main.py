@@ -45,7 +45,11 @@ def main():
                 aggregator.add(line)
             except Exception as e:
                 print(f"Failed adding value to aggregator: {e}")
-        res = [{aggregator.identifier : aggregator.calc()}]
+        try:
+            res = [{aggregator.identifier : aggregator.calc()}]
+        except:
+            res = []
+
     else:
         res = dataRes
     
