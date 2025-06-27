@@ -1,4 +1,5 @@
 def try_cast(value: str):
+    """ Функция преобразования str в int или float (при возможности)"""
     try:
         if "." in value:
             return float(value)

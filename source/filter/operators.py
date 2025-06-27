@@ -1,6 +1,7 @@
 from .base import BaseFilter
 
 class MoreThanFilter(BaseFilter):
+    """ Фильтр с заданной нижней границей"""
     operator = ">"
     def apply(self, row) -> bool:
         try:
@@ -9,6 +10,7 @@ class MoreThanFilter(BaseFilter):
             return False
 
 class LessThanFilter(BaseFilter):
+    """ Фильтр с заданной верхней границей"""
     operator = "<"
     def apply(self, row) -> bool:
         try:
@@ -17,6 +19,7 @@ class LessThanFilter(BaseFilter):
             return False
             
 class EqualsFilter(BaseFilter):
+    """ Фильтр проверки равенства"""
     operator = "="
     def apply(self, row) -> bool:
         try:
@@ -24,4 +27,5 @@ class EqualsFilter(BaseFilter):
         except:
             return False
 
-FILTERS = { cls.operator: cls for cls in BaseFilter.__subclasses__() }
+# Словарь формата { оператор (str) : класс }
+FILTERS = { cls.operator: cls for cls in BaseFilter.__subclasses__() } 
